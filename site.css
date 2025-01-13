@@ -1,0 +1,57 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* General Body Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Light background */
+    color: #333; /* Default text color */
+}
+
+/* Main Container Styling */
+#container {
+    margin: 50px 100px; /* Top margin: 50px, Sides: 100px */
+}
+
+/* Header Tags (h1, h2, h3, h4) Styling */
+h1, h2, h3, h4 {
+    background-color: #b12126; /* Red background */
+    color: white; /* White text color */
+    border: 1px solid #D6A800; /* Gold border */
+    padding: 10px; /* Padding inside headers */
+    margin-bottom: 10px; /* Spacing below headers */
+}
+
+/* Styling for Lists */
+ul {
+    list-style-type: disc; /* Adds bullet points */
+    padding-left: 40px; /* Indent for the bullet points */
+}
+
+li {
+    margin: 5px 0; /* Space between list items */
+}
+
+/* Anchor Tag Styling */
+a {
+    color: #b12126; /* Red color for links */
+    text-decoration: none; /* No underline */
+    font-weight: bold; /* Bold font */
+}
+
+/* Hover State for Links */
+a:hover {
+    color: #800d10; /* Darker red for hover */
+}
+
+/* Visited State for Links */
+a:visited {
+    color: #66090c; /* Muted red for visited links */
+}
+
+/* Horizontal Line Styling */
+hr {
+    border: 1px solid #D6A800; /* Gold border for horizontal line */
+}
