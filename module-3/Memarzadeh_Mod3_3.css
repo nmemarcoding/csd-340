@@ -67,13 +67,15 @@ ul li {
 .footer {
     width: 100%; /* Full width for layout consistency */
     margin-top: 60%; /* Push it down in the layout */
-    margin-bottom: 20px; /* Add space below the footer */
+    margin-bottom: 20px; /* Space below the footer */
+    overflow: hidden; /* Clear floats and ensure proper layout */
 }
 
 .footer a {
-    float: right; /* Floats the link to the right */
+    float: right; /* Align the link to the right */
     text-decoration: none;
     font-weight: bold;
+    margin-left: 10px; /* Optional: Adds spacing if multiple links exist */
 }
 
 .footer a:hover {
@@ -83,3 +85,5 @@ ul li {
 .footer a:visited {
     color: purple; /* Changes color for visited links */
 }
+
+
