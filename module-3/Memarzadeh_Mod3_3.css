@@ -74,8 +74,6 @@ ul li {
     float: right; /* Floats the link to the right */
     text-decoration: none;
     font-weight: bold;
-    
-    border-bottom: 1px solid 
 }
 
 .footer a:hover {
