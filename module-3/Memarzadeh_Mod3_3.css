@@ -20,9 +20,7 @@ h3 {
 
 /* Main Container */
 #container {
-    display: flex;
-    flex-direction: column; /* Allows footer to naturally move to the bottom */
-    min-height: 100vh; /* Full viewport height */
+    min-height: 100vh; /* Ensure full-page height */
     width: 90%;
     margin: 0 auto;
 }
@@ -31,7 +29,7 @@ h3 {
 .side-by-side {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px; /* Add spacing between the content and the footer */
+    margin-bottom: 20px; /* Add spacing between content and footer */
 }
 
 .left, .right {
@@ -67,25 +65,23 @@ ul li {
 
 /* Footer */
 .footer {
-    margin-top: auto; /* Pushes footer to the bottom dynamically */
-    text-align: right; /* Aligns the link to the right */
-    padding: 10px;
+    width: 100%; /* Full width for layout consistency */
+    margin-top: 60%; /* Push it down in the layout */
+    margin-bottom: 20px; /* Add space below the footer */
 }
 
-/* Footer Link */
 .footer a {
+    float: right; /* Floats the link to the right */
     text-decoration: none;
     font-weight: bold;
-    color: black;
-    /* add underline */
-    border-bottom: 1px solid
-
+    
+    border-bottom: 1px solid 
 }
 
 .footer a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Adds hover effect */
 }
 
 .footer a:visited {
-    color: purple; /* Change the color to purple after visiting */
+    color: purple; /* Changes color for visited links */
 }
