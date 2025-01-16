@@ -65,25 +65,25 @@ ul li {
 
 /* Footer */
 .footer {
-    width: 100%; /* Full width for layout consistency */
-    margin-top: 60%; /* Push it down in the layout */
-    margin-bottom: 20px; /* Space below the footer */
-    overflow: hidden; /* Clear floats and ensure proper layout */
+    width: 100%;
+    margin-top: 60%;
+    margin-bottom: 20px;
+    overflow: hidden;
 }
 
 .footer a {
-    float: right; /* Align the link to the right */
+    float: right;
     text-decoration: none;
     font-weight: bold;
-    margin-left: 10px; /* Optional: Adds spacing if multiple links exist */
+
 }
 
 .footer a:hover {
-    text-decoration: underline; /* Adds hover effect */
+    text-decoration: underline;
 }
 
 .footer a:visited {
-    color: purple; /* Changes color for visited links */
+    color: purple; 
 }
 
 
