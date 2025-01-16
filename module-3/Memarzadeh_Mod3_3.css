@@ -29,18 +29,26 @@ h3 {
 .side-by-side {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px; /* Add spacing between content and footer */
+    margin-bottom: 20px; 
 }
 
-.left, .right {
+.left{
+    border: 1px solid red;
+    border-radius: 15px;
+    width: 45%;
+    padding: 10px;
+}
+
+.right {
+    border: 1px dashed red;
+    border-radius: 15px;
     width: 45%;
     padding: 10px;
 }
 
 /* Ordered List Styling */
 ol {
-    border: 1px solid red;
-    border-radius: 15px;
+    
     padding: 10px;
     list-style: decimal inside;
     margin: 0;
@@ -52,8 +60,6 @@ ol li {
 
 /* Unordered List Styling */
 ul {
-    border: 1px dashed red;
-    border-radius: 15px;
     padding: 10px;
     list-style: upper-roman inside;
     margin: 0;
