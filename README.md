@@ -2,4 +2,4 @@
 
 ## Contributors
 - Instructor: Nathan Braun
-- Nima Memarzadeh
+- Nima Memarzadeh {https://nmemarcoding.github.io/csd-340/}
