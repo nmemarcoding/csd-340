@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #A0522D;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #A0522D;
+    border-bottom: 15px solid #654321;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: #654321;
+    color: white;
+}
+
+#container {
+    margin: 2% 5% 100px 5%; 
+    width: 60%;
+    max-width: 700px;
+}
+
+/* Card Styling */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 90%; 
+    background: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px; 
+}
+
+.card-title {
+    text-align: center;
+    font-size: 1.8em;
+    color: #A0522D;
+    font-weight: 600;
+}
+
+.card-content {
+    padding: 10px;
+}
+
+.card-content ol {
+    padding-left: 20px;
+}
+
+.card-content li {
+    padding: 5px;
+}
+
+/* Movies Table Styling */
+#movies {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 30px; 
+}
+
+#movies th {
+    background-color: #A0522D;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+#movies td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/* Proper bullet styling */
+#movies ul {
+    padding-left: 20px; 
+    margin: 5px 0;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #A0522D;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    margin: 0;
+    padding-left: 10px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+    padding-right: 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
