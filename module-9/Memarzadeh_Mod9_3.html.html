@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CSD 340 Web Development with HTML and CSS</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Nima Memarzadeh">
+        <meta name="description" content="Assignment 9.3: JavaScript - Part 1">
+        <meta name="keywords" content="HTML, CSS, Web Development, CSD 340">
+        <title>CSD 340 Web Development with HTML and CSS</title>
+        <script>
+            var firstWord = "mysterious";
+            var secondWord = "enchanted";
+            var thirdWord = "ancient";
+            var fourthWord = "magical";
+        </script>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 50px;
+                line-height: 1.6;
+            }
+            button {
+                margin: 5px;
+                padding: 8px 15px;
+                cursor: pointer;
+            }
+            span {
+                color: #0066cc;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Assignment 9.3: JavaScript - Part 1</h1>
+
+        <div>
+            <p>Deep in the heart of the forest, a small cottage stood surrounded by towering trees. The 
+            <span id="word1">__________</span> mist swirled around its weathered walls, creating an atmosphere of wonder and anticipation.</p>
+
+            <p>Inside, an old storyteller lived among her collection of <span id="word2">__________</span> books, 
+            each one holding tales passed down through generations. She spent her days studying the 
+            <span id="word3">__________</span> texts and sharing their wisdom with curious visitors.</p>
+
+            <p>As night fell, she would light candles and watch as their flames cast 
+            <span id="word4">__________</span> shadows on the walls, bringing her stories to life in the dancing light.</p>
+        </div>
+
+        <div>
+            <button type="button" onclick="document.getElementById('word1').innerHTML = firstWord">Word 1</button>
+            <button type="button" onclick="document.getElementById('word2').innerHTML = secondWord">Word 2</button>
+            <button type="button" onclick="document.getElementById('word3').innerHTML = thirdWord">Word 3</button>
+            <button type="button" onclick="document.getElementById('word4').innerHTML = fourthWord">Word 4</button>
+        </div>
+    </body>
+</html>
