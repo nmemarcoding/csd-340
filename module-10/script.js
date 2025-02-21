@@ -25,6 +25,11 @@ const imageData = {
       imgSrc: "4.jpeg"
     }
   };
+
+  document.addEventListener('DOMContentLoaded', function() {
+    // Initialize the extraText element's display state
+    document.getElementById('extraText').style.display = 'none';
+  });
   
   // Update the main image and overlay dynamically
   function displayImage(imageKey) {
