@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Nima Memarzadeh">
+  <meta name="description" content="Assignment 10.3: JavaScript - Part 2">
+  <meta name="keywords" content="CSD 340, JavaScript, Part 2">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSD 340 Web Development with HTML and CSS</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Assignment 10.3: JavaScript - Part 2</h1>
+
+  <!-- Main Image with Dynamic Overlay -->
+  <div class="main-container" onmouseover="showOverlay()" onmouseout="hideOverlay()">
+    <img id="mainImage" src="1.jpeg" alt="Main Display">
+    <div id="imageOverlay" class="overlay">
+      <h2 id="overlayTitle">The Enchanted Forest</h2>
+      <p id="overlayPrice">$199.99</p>
+      <p id="overlayDescription">A mystical place filled with magic and wonder.</p>
+    </div>
+  </div>
+
+  <p id="hoverText"></p>
+
+  <!-- Gallery of Thumbnails -->
+  <div class="gallery">
+    <img src="1.jpeg" 
+         onmouseover="showHoverText('Enchanted Forest: A mystical place of wonder.')"
+         onmouseout="clearHoverText()"
+         onclick="displayImage('enchantedForest')">
+    
+    <img src="2.jpeg"
+         onmouseover="showHoverText('Futuristic City: A world of neon lights and innovation.')"
+         onmouseout="clearHoverText()"
+         onclick="displayImage('futuristicCity')">
+
+    <img src="3.jpeg"
+         onmouseover="showHoverText('Fantasy Path: A secret adventure awaits.')"
+         onmouseout="clearHoverText()"
+         onclick="displayImage('fantasyPath')">
+
+    <img src="4.jpeg"
+         onmouseover="showHoverText('Night City: Cyberpunk lights and mystery.')"
+         onmouseout="clearHoverText()"
+         onclick="displayImage('nightCity')">
+  </div>
+
+  <!-- Extra Text Toggle -->
+  <div class="btn-container">
+    <button onclick="toggleText()">Show/Hide Extra Text</button>
+  </div>
+
+  <div id="extraText">
+    <p>Explore these incredible destinations by clicking the images!</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
