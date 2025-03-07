@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Nima Memarzadeh">
+    <meta name="description" content="Assignment 12.2: JavaScript - Part 4">
+    <meta name="keywords" content="HTML, CSS, JavaScript, CSD 340, Web Development">
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <link rel="stylesheet" href="./Memarzadeh_Mod12_2.css">
+</head>
+<body>
+    <!-- Main Container -->
+    <div id="container">
+        <!-- Page Title -->
+        <h1>Assignment 12.2: JavaScript - Part 4</h1>
+        
+        <!-- Side-by-side divs -->
+        <div class="side-by-side">
+            <!-- Left Div -->
+            <div class="left">
+                <h3>Top 10 Favorite Books</h3>
+                <div class="button-container">
+                    <button id="top-to-bottom">Top to Bottom</button>
+                    <button id="bottom-to-top">Bottom to Top</button>
+                </div>
+                <hr>
+                <div id="books-container">
+                    <!-- Books will be displayed here by JavaScript -->
+                </div>
+            </div>
+            
+            <!-- Right Div -->
+            <div class="right">
+                <h3>5 Things I've Learned Since the Course Started</h3>
+                <ul class="course-learnings">
+                    <li>Understanding HTML structure</li>
+                    <li>Using CSS to style elements</li>
+                    <li>Creating responsive layouts</li>
+                    <li>Proper file and folder organization</li>
+                    <li>Importance of debugging</li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Bottom Div -->
+        <footer class="footer">
+            <a href="../index.html">back to Landing Page</a>
+        </footer>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="./Memarzadeh_Mod12_2.js"></script>
+</body>
+</html>
